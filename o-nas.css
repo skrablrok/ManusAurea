@@ -242,7 +242,7 @@ ul li a {
 
 
 .glava3{
-    background-image:linear-gradient(rgba(0,0,0,0.50)), url(masaza_posameznih_predelov/IMG_0166.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.50)), url(manus_aurea/IMG_0119.jpeg);
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -750,4 +750,5 @@ iframe{
 }
 .avtorske a{
     color: #4B3C2D;
+
 }
