@@ -471,6 +471,8 @@ ul li a {
 
 .contact-form button {
     font-size: clamp(12px, .8vw, 120px);
+    isolation: isolate;
+    position: relative;
     background-color: #4B3C2D;
     border: none;
     padding: 1vw;
@@ -478,6 +480,29 @@ ul li a {
     padding-right: 2.5vw;
     border-radius: 50px;
     color: #ffffff;
+    cursor: pointer;
+}
+.contact-form button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #F0E6D2;          /* BARVA, KI PRIDE OB HOVER */
+    transform: scaleX(0);
+    transform-origin: left;       /* animacija iz leve proti desni */
+    transition: transform 0.4s ease;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+/* HOVER */
+.contact-form button:hover::before {
+    transform: scaleX(1);
+}
+
+/* da je tekst viden nad animacijo */
+.contact-form button:hover {
+    color: #4B3C2D; /* poljubno – spremeni po želji */
+    border: none;
 }
 .contact-form input:focus,
 .contact-form textarea:focus {
@@ -793,3 +818,4 @@ iframe{
     color: #4B3C2D;
 
 }
+
