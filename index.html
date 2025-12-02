@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesionalne Masaže in Športna Terapija | Manus Aurea</title>
+    <meta name="description" content="Profesionalna športna terapija in masaže za odpravo bolečin, rehabilitacijo ter izboljšanje počutja. Naročite se na individualno obravnavo." />
+    <meta name="keywords" content="fizioterapija, športna terapija, masaže, športna masaža, klasična masaža, rehabilitacija, terapije bolečine, terapija hrbtenice" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
+<!-- oswald -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="icon" type="image/png" href="index/ChatGPT_Image_Nov_10__2025__01_21_36_PM-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+    <header>
+            
+        <div class="nav_bar">
+            <div class="logo">
+                <a href="index.html"><img src="index/ChatGPT_Image_Nov_10__2025__01_21_36_PM-removebg-preview.png" alt=""></a>
+            </div>
+            <ul class="navlist">
+                <li><a class="nav_link" id="crna" href="o-nas.html">O nas</a></li>
+                <li id="dropdown" class="mobile-dropdown">
+                    <a class="nav_link" id="crna" href="#">Storitev</a>
+                    <ul class="dropdown">
+                        <li><a href="sportna_terapija.html">Športna terapija</a></li>
+                        <li><a href="masaze.html">Masaže</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav_link" id="crna" href="cenik.html">Cenik</a></li>
+                <li><a class="nav_link" id="crna" href="galerija.html">Galerija</a></li>
+                <li><a class="nav_link" id="crna" href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <div class="bx bx-menu" id="menu-icon"></div> 
+        </div>   
+
+
+
+        <script>
+            const dropdown = document.querySelector('.mobile-dropdown > a');
+            const dropdownLi = document.querySelector('.mobile-dropdown');
+
+            dropdown.addEventListener('click', function(e){
+                e.preventDefault(); // prepreči redirect
+                dropdownLi.classList.toggle('open');
+            });
+
+            // Za mobilni menu toggle
+            const menuIcon = document.getElementById('menu-icon');
+            const navlist = document.querySelector('.navlist');
+
+            menuIcon.addEventListener('click', () => {
+                navlist.classList.toggle('open');
+            });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            window.onscroll = function() { stickyNavbar() };
+
+            var navbar = document.querySelector(".nav_bar"); // Select the navbar element
+            var sticky = navbar.offsetTop; // Get the initial offset position of the navbar
+
+            function stickyNavbar() {
+                if (window.pageYOffset > sticky) {
+                    navbar.classList.add("sticky"); // Add the sticky class when scroll past the navbar
+                } else {
+                    navbar.classList.remove("sticky"); // Remove the sticky class when at the top
+                }
+            }
+        </script>
+        
+
+    </header>
+    
+
+
+
+
+
+    <main>
+        <div class="glava">
+
+
+            <div class="leva_hero">
+                <div class="naslov">
+                    <h1>Manus Aurea – moč dotika</h1>
+
+                </div>
+                <div class="podnaslov">
+                    <p>Z zlatimi rokami prebujava ravnovesje, sprostitev in toplino v vsakem dotiku.</p>
+
+                </div>
+                <div class="gumb">
+                    <a href="kontakt.html"><button>Rezerviraj termin</button></a>
+                    <a href="o-nas.html"><button>Več o nama</button></a>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="desna_hero">
+                <div class="slika"></div>
+            </div>
+            
+            
+
+            
+        </div>
+
+
+
+
+
+
+        <div class="storitve" id="storitve">
+            <div class="storitev">
+                <div id="slika1"></div>
+                <div class="ime_storitve"><h2>MASAŽA</h2></div>
+                <div class="opis_storitve"><p>Masaža ni razkošje – je nujen del aktivnega življenjskega sloga. Masaža je pri nas prilagojena posamezniku in njegovim potrebam.</p></div>
+                <div class="gumb_storitev"><a href="masaze.html"><button>Več o storitvi &#8594;</button></a></div>
+            </div>
+            <div class="storitev">
+                <div id="slika2"></div>
+                <div class="ime_storitve"><h2>ŠPORTNA TERAPIJA</h2></div>
+                <div class="opis_storitve"><p>Športna terapija je celostni pristop, ki združuje znanje anatomije, biomehanike in rehabilitacijskih tehnik za obravnavo poškodb ter težav, povezanih s telesno aktivnostjo.</p></div>
+                <div class="gumb_storitev"><a href="sportna_terapija.html"><button>Več o storitvi &#8594;</button></a></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <hr class="brown-line">
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="onama">
+            <div class="rok">
+                <div class="slika2"></div>
+                <div class="text">
+                    <h2>Rok Žabkar</h2>
+                    <p>Sem Rok Žabkar, diplomirani fizioterapevt z dolgoletnimi izkušnjami dela v športu. Trenutno delujem kot fizioterapevt pri nogometnem klubu NK Domžale, občasno pa sodelujem tudi s člansko slovensko futsal reprezentanco. Dnevno sem v stiku s profesionalnimi športniki – od preventive in priprave na tekme do rehabilitacije po poškodbah. Moja strast je pomagati športnikom in rekreativcem, da se čim hitreje in varno vrnejo v trenažni proces ter izboljšajo svoje telesne zmogljivosti. Pri svojem delu združujem manualne tehnike z uporabo najsodobnejših aparatur, saj verjamem, da je individualno prilagojen pristop ključ do uspeha. </p>
+                    <a href="o-nas.html"><button>Več o nama</button></a>
+                </div>
+                <div class="slika"></div>
+            </div>
+
+
+            <div class="kaja">
+                <div class="slika"></div>
+                <div class="text">
+                    <h2>Kaja Kajzer</h2>
+                    <p>Sem Kaja Kajzer, vrhunska športnica in bodoča fizioterapevtka. Kot dvakratna olimpijka in večkratna medalistka na svetovni ravni sem skozi svojo športno pot doživela ogromno poškodb in rehabilitacij. Prav to mi je omogočilo, da sem spoznala delo različnih fizioterapevtov in terapevtskih pristopov v praksi. Trenutno zaključujem študij fizioterapije (manjka mi le še diploma), prakso pa sem opravljala tudi na URI Soča, kjer sem pridobila dragocene izkušnje z rehabilitacijo po operacijah in poškodbami. Moja prednost je, da športnike razumem iz prve roke – vem, kako se počutijo, kaj potrebujejo in kako jim približati pot do hitrejše regeneracije. </p>
+                    <a href="o-nas.html"><button>Več o nama</button></a>
+                </div>
+            </div>
+
+
+            
+        </div>
+
+
+
+
+
+
+
+
+        <hr class="brown-line">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="ocene">
+            <div class="text-ocene">
+                <h1>MNENJA STRANK</h1>
+                <p>Naši zadovoljni klienti so najboljši dokaz kakovosti našega dela. Njihove izkušnje odražajo našo predanost, strokovnost in željo, da vsakemu posamezniku pomagamo do boljšega počutja. Spodaj lahko preberete nekaj njihovih vtisov.</p>
+            </div>
+            <div class="reviews-container">
+                <button class="arrow left" id="prevBtn">&#10094;</button>
+
+                <div class="reviews-slider" id="slider">
+                    <div class="review"><p>"Izjemna izkušnja! Strokovna obravnava, prijetno okolje in občutek, da si v dobrih rokah..."</p></div>
+                    <div class="review"><p>"Profesionalen pristop, vrhunsko znanje in resnično razumevanje športnih poškodb. Po masaži sem imel občutno manj napetosti in boljšo gibljivost. Toplo priporočam vsem!"</p></div>
+                    <div class="review"><p>"Poškodba me je ovirala mesece, masaže pa so bile edine, ki so dejansko pomagale. Po nekaj obiskih sem začel normalno trenirati."</p></div>
+                    <div class="review"><p>"Poškodba me je ovirala mesece, masaže pa so bile edine, ki so dejansko pomagale. Po nekaj obiskih sem začel normalno trenirati."</p></div>
+                    <div class="review"><p>"Poškodba me je ovirala mesece, masaže pa so bile edine, ki so dejansko pomagale. Po nekaj obiskih sem začel normalno trenirati."</p></div>
+                </div>
+
+                <button class="arrow right" id="nextBtn">&#10095;</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <script>
+            const reviews = document.querySelectorAll(".review");
+            let current = 0;
+
+            function render() {
+                reviews.forEach(box => {
+                    box.classList.remove("left", "center", "right");
+                });
+
+                // Center
+                reviews[current].classList.add("center");
+
+                // Left
+                if (current > 0) {
+                    reviews[current - 1].classList.add("left");
+                }
+
+                // Right
+                if (current < reviews.length - 1) {
+                    reviews[current + 1].classList.add("right");
+                }
+            }
+
+            document.getElementById("nextBtn").addEventListener("click", () => {
+                if (current < reviews.length - 1) current++;
+                render();
+            });
+
+            document.getElementById("prevBtn").addEventListener("click", () => {
+                if (current > 0) current--;
+                render();
+            });
+
+            // inicializacija
+            render();
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="kontakt">
+            <section class="contact-section">
+                <div class="contact-left">
+                    <h1>MANUS AUREA</h1>
+                    <p>manusaurea.lj@gmail.com</p>
+                    <p>Leskoškova cesta 6, 1000 Ljubljana</p>
+                </div>
+
+                <div class="contact-right">
+                    <h2>Tukaj odgovorimo na vsa vaša vprašanja</h2>
+
+                    <form class="contact-form">
+                        <input type="text" placeholder="ime in priimek">
+
+                        <div class="row">
+                            <input type="email" placeholder="mail">
+                            <input type="text" placeholder="telefonska številka">
+                        </div>
+
+                        <input type="text" placeholder="zadeva">
+
+                        <textarea placeholder="sporočilo"></textarea>
+
+                        <button type="submit">POŠLJI SPOROČILO</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="noga">
+            <div class="zemljevid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d346.0299236399853!2d14.55533306756089!3d46.06626766153655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765326a9aa8ccc3%3A0x2c23b308ba5ebd1f!2sLesko%C5%A1kova%20cesta%206%2C%201000%20Ljubljana!5e0!3m2!1sen!2ssi!4v1764500444093!5m2!1sen!2ssi" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="info">
+                <div class="storitve-kontakt">
+                    <div class="kontakt-noga">
+                        <h2>KONTAKT</h2>
+                        <div class="lok-mail">
+                            <a href="mailto: manusaurea.lj@gmail.com"><p>manusaurea.lj@gmail.com</p></a>
+                            <a href=""><p>Leskoškova cesta 6, 1000 Ljubljana</p></a>
+                        </div>
+                    </div>
+                    <div class="storitve-list">
+                        <h2>STORITVE</h2>
+                        <ul>
+                            <li><a class="list-storitev" href="sportna_terapija.html">Športna terapija</a></li>
+                            <li><a class="list-storitev" href="masaze.html#masaza">Masaža posameznih predelov</a></li>
+                            <li><a class="list-storitev" href="masaze.html#masaza">Klasična masaža celega telesa</a></li>
+                            <li><a class="list-storitev" href="masaze.html#masaza">Športna masaža celega telesa</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="podstrani">
+                    <h2>PODSTRANI</h2>
+                    <ul>
+                        <li><a class="subpage" href="o-nas.html">O nas</a></li>
+                        <li><a class="subpage" href="index.html#storitve">Storitve</a></li>
+                        <li><a class="subpage" href="cenik.html">Cenik</a></li>
+                        <li><a class="subpage" href="galerija.html">Galerija</a></li>
+                        <li><a class="subpage" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="avtorske">
+            <p>© 2025 Vse pravice pridržane | by <a href="https:\\skrablweb.si" target="_blank" >Skrablweb</a> | Pogoji poslovanja</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    
+
+
+    
+
+</body>
+</html>
