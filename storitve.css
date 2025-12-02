@@ -252,7 +252,7 @@ ul li a {
     align-items: center;
 }
 .glava2{
-    background-image:linear-gradient(rgba(0,0,0,0.50)), url(masaze/IMG_0166jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.50)), url(masaze/IMG_0166.jpeg);
     background-position: top;
     background-size: cover;
     height: 70vh;
@@ -908,3 +908,4 @@ iframe{
     color: #4B3C2D;
 
 }
+
