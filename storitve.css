@@ -252,7 +252,7 @@ ul li a {
     align-items: center;
 }
 .glava2{
-    background-image:linear-gradient(rgba(0,0,0,0.50)), url(masaza_celega_telesa/IMG_0491.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.50)), url(masaze/IMG_0166jpeg);
     background-position: top;
     background-size: cover;
     height: 70vh;
@@ -906,4 +906,5 @@ iframe{
 }
 .avtorske a{
     color: #4B3C2D;
+
 }
