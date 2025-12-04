@@ -539,7 +539,6 @@ ul li a {
 
 
 
-
 @media(max-width: 970px){
     .contact-section{
         flex-direction: column;
@@ -563,11 +562,11 @@ ul li a {
     }
 
     .contact-right{
-        width: 100%;
+        width: 80%;
     }
     .contact-left{
-        max-width: 100%;
-        width: 100%;
+        max-width: 80%;
+        width: 80%;
 
     }
     .contact-left h1 {
@@ -596,10 +595,6 @@ ul li a {
         padding-bottom: 2vw;
     }
 }
-
-
-
-
 
 
 
@@ -826,6 +821,7 @@ iframe{
     color: #4B3C2D;
 
 }
+
 
 
 
