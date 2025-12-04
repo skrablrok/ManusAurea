@@ -500,7 +500,7 @@ ul li a {
     flex-wrap: wrap;
 }
 .storitev h2{
-    font-size: clamp(16px, 1.7vw, 90px);
+    font-size: clamp(20px, 1.7vw, 90px);
     color: #4B3C2D;
     font-weight: 600;
 }
@@ -571,7 +571,7 @@ ul li a {
         align-items: flex-start;
     }
     .storitev h2{
-        font-size: clamp(16px, 4vw, 90px);
+        font-size: clamp(24px, 4vw, 90px);
         color: #4B3C2D;
         font-weight: 600;
     }
@@ -1226,7 +1226,13 @@ ul li a {
         padding-right: 3vw;
     }
 }
-
+@media(max-height:1245px){
+    .contact-section{
+        height: fit-content;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+}
 
 
 
@@ -1441,4 +1447,5 @@ iframe{
 }
 .avtorske a{
     color: #4B3C2D;
+
 }
