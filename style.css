@@ -505,13 +505,15 @@ ul li a {
     font-weight: 600;
 }
 .opis_storitve{
-    width: 100%;
+    width: 25vw;
+    word-break: keep-all;
 }
 .storitev p{
     font-size: clamp(12px, .8vw, 60px);
     padding-top: .5vw;
     padding-bottom: 1vw;
     text-align: justify;
+    word-break: keep-all;
 }
 .storitev .gumb_storitev button{
     background-color: #4B3C2D;
@@ -575,7 +577,7 @@ ul li a {
         font-weight: 600;
     }
     .opis_storitve{
-        width: 70%;
+        width: 100%;
     }
     .storitev p{
         font-size: clamp(12px, 2vw, 90px);
@@ -1448,4 +1450,5 @@ iframe{
     color: #4B3C2D;
 
 }
+
 
