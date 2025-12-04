@@ -511,7 +511,6 @@ ul li a {
     font-size: clamp(12px, .8vw, 60px);
     padding-top: .5vw;
     padding-bottom: 1vw;
-    width: 25vw;
     text-align: justify;
 }
 .storitev .gumb_storitev button{
@@ -1449,3 +1448,4 @@ iframe{
     color: #4B3C2D;
 
 }
+
