@@ -389,7 +389,6 @@ ul li a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 80px;
     box-sizing: border-box;
     background-image:linear-gradient(rgba(0,0,0,0.30), rgba(0,0,0,0.30)), url("index/IMG_0509.jpeg"); /* zamenjaj */
     background-size: cover;
@@ -521,6 +520,9 @@ ul li a {
 .contact-form textarea:focus::placeholder {
     transform: translateY(-12px);
     opacity: 0.6;
+}
+.kontakt{
+    padding-bottom: 5vw;
 }
 
 
@@ -824,5 +826,6 @@ iframe{
     color: #4B3C2D;
 
 }
+
 
 
