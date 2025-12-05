@@ -243,6 +243,7 @@ ul li a {
 
 .glava3{
     background-image:linear-gradient(rgba(0,0,0,0.50)), url(galerija/IMG_0123.jpeg);
+    background-color: #4B3C2D;
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -581,4 +582,5 @@ iframe{
 }
 .avtorske a{
     color: #4B3C2D;
+
 }
