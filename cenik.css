@@ -76,6 +76,10 @@ ul li a {
     z-index: 1101;
     cursor: pointer;
     display: none;
+    transition: .3s;
+}
+#menu-icon.bx-x {
+    transform: rotate(90deg); /* lep efekt */
 }
 
 
@@ -720,4 +724,5 @@ iframe{
     color: #4B3C2D;
 
 }
+
 
