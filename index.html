@@ -64,34 +64,6 @@
 
 
         <script>
-            const dropdown = document.querySelector('.mobile-dropdown > a');
-            const dropdownLi = document.querySelector('.mobile-dropdown');
-
-            dropdown.addEventListener('click', function(e){
-                e.preventDefault(); // prepreči redirect
-                dropdownLi.classList.toggle('open');
-            });
-
-            // Za mobilni menu toggle
-            const menuIcon = document.getElementById('menu-icon');
-            const navlist = document.querySelector('.navlist');
-
-            menuIcon.addEventListener('click', () => {
-                navlist.classList.toggle('open');
-            });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             window.onscroll = function() { stickyNavbar() };
@@ -473,6 +445,7 @@
 </body>
 
 </html>
+
 
 
 
