@@ -63,23 +63,7 @@
             <div class="bx bx-menu" id="menu-icon"></div> 
         </div>   
 
-        <script>
-            const dropdown = document.querySelector('.mobile-dropdown > a');
-            const dropdownLi = document.querySelector('.mobile-dropdown');
-
-            dropdown.addEventListener('click', function(e){
-                e.preventDefault(); // prepreči redirect
-                dropdownLi.classList.toggle('open');
-            });
-
-            // Za mobilni menu toggle
-            const menuIcon = document.getElementById('menu-icon');
-            const navlist = document.querySelector('.navlist');
-
-            menuIcon.addEventListener('click', () => {
-                navlist.classList.toggle('open');
-            });
-        </script>
+        
 
     </header>
     
@@ -265,5 +249,6 @@
 </body>
 
 </html>
+
 
 
