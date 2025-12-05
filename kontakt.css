@@ -243,6 +243,7 @@ ul li a {
 
 .glava{
     background-image:linear-gradient(rgba(0,0,0,0.50)), url(kontakt/IMG_0172.jpeg);
+    background-color: #4B3C2D;
     background-position: center;
     background-size: cover;
     height: 70vh;
@@ -823,6 +824,7 @@ iframe{
     color: #4B3C2D;
 
 }
+
 
 
 
