@@ -413,10 +413,11 @@ ul li a {
     font-size: clamp(16px, 1vw, 90px);
     margin: 8px 0;
     font-weight: 100;
+}
+.contact-left a{
     text-decoration: none;
     color: #FFFFFF;
 }
-
 
 /* DESNA STRAN */
 
@@ -824,6 +825,7 @@ iframe{
     color: #4B3C2D;
 
 }
+
 
 
 
